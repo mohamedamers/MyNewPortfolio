@@ -265,6 +265,8 @@ figure figcaption {
   #colorlib-aside .colorlib-footer {
     position: relative;
     bottom: 0;
+    margin-top: 229px;
+
   }
 }
 
@@ -279,7 +281,7 @@ figure figcaption {
 
 #colorlib-aside .colorlib-footer ul li {
   padding: 0;
-  margin: 0;
+  /* margin: 0; */
   display: inline;
   list-style: none;
 }
