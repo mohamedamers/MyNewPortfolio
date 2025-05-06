@@ -141,10 +141,11 @@ figure figcaption {
 #colorlib-aside .position {
   display: block;
   margin-bottom: 2em;
-  font-size: 12px;
+  font-size: 15px;
   text-transform: uppercase;
-  color: white;
+  color: rgb(247, 247, 247);
 }
+
 
 #colorlib-aside #colorlib-logo {
   text-align: right;
@@ -2064,4 +2065,25 @@ mark {
   font-size: 18px;
 }
 
-/*---------------------
+/*---------------------*/
+.custom-lang-selector {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 10px;
+  border-radius: 4px;
+  width: fit-content;
+  font-family: Arial, sans-serif;
+  cursor: pointer;
+}
+
+.custom-lang-selector img {
+  width: 20px;
+  height: auto;
+}
+
+.custom-lang-selector span {
+  font-size: 14px;
+  color: #333;
+}
